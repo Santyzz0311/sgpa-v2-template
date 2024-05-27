@@ -1,8 +1,7 @@
-import { ReactNode } from "react";
 import { Route, Routes } from "react-router-dom";
 
 interface Props {
-  children: ReactNode;
+  children: JSX.Element[] | JSX.Element
 }
 
 export default function RoutesWithNotFound({ children }: Props) {
